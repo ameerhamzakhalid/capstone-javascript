@@ -49,7 +49,7 @@ const displayData = (arr) => {
     });
     btnLikedElement.addEventListener('click', async () => {
      await addLikeToItem(food.idMeal);
-      await getLikesToItems()
+     await getLikesToItems()
         .then(printLike)
         .catch((e) => console.log(e));
     });
