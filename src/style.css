@@ -118,6 +118,14 @@ li:hover {
 }
 
 .btn-recipe {
+  grid-area: btn-recipe;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0.2rem;
+}
+
+.btn-recipe button {
   background: rgb(221, 21, 21);
   border: none;
   color: white;
@@ -126,25 +134,21 @@ li:hover {
   cursor: pointer;
 }
 
-/* .btn-liked {
+.btn-liked {
   grid-area: btn-liked;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   padding: 0.2rem;
-} */
+}
 
-.btn-liked {
-  cursor: pointer;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-around;
+.btn-liked button {
   background: white;
-  border: none;
+  border: 1px solid #dbdbdb;
   color: rgb(221, 21, 21);
   font-weight: bold;
-  font-size: 0.8em;
-  padding: 0.1rem 0.2rem;
+  padding: 0.1rem 0.4rem;
+  cursor: pointer;
 }
 
 .no-grid {
@@ -187,6 +191,27 @@ li:hover {
 .show {
   animation: fadeIn 1s;
   animation: fadeIn 1s;
+}
+
+.mesgFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mesgContent input,
+.mesgContent textarea {
+  margin-bottom: 10px;
+}
+
+.mesgContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.aligCener {
+  align-self: center;
 }
 
 /* Add animation (fade in the popup) */
