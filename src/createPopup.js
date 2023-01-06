@@ -1,5 +1,6 @@
 import hidenItems from './hidenItems.js';
-import { displayComents, getComments } from './display-coments.js';
+import { displayComents, getComments } from './displayComents.js';
+import newMessageForm from './newComent.js';
 
 const mainCont = document.querySelector('.container-food-cards');
 
@@ -14,10 +15,17 @@ const createPopup = (details, msgDat) => {
   const myPopup = document.createElement('div');
   const popupButon = document.createElement('button');
   const itemdata = document.createElement('div');
+  itemdata.classList.add('mesgFormContainer');
   const messageContainer = document.createElement('div');
+  messageContainer.id = 'mesgContainer';
+  messageContainer.classList.add('mesgFormContainer');
+  const newMessCont = document.createElement('div');
+  newMessCont.classList.add('mesgFormContainer');
   displayComents(msgDat, messageContainer);
+  newMessageForm(newMessCont, details.idMeal);
 
-  itemdata.innerHTML = `<img src="${details.strMealThumb}" width="250px"><h2>${details.strMeal}</h2><p><strong>Ingredients:</strong> ${details.strIngredient1}, ${details.strIngredient2}, ${details.strIngredient3}, ${details.strIngredient4}, ${details.strIngredient5}</p>`;
+  itemdata.innerHTML = `<img src="${details.strMealThumb}" width="250px"><h2>${details.strMeal}</h2><h4>Ingredients:</h4><p>${details.strIngredient1}, ${details.strIngredient2}, ${details.strIngredient3}, ${details.strIngredient4}, ${details.strIngredient5}</p><h4>Recipe:</h4>
+  <p class="recipe">${details.strInstructions}</p>`;
   itemdata.id = details.idMeal;
   myPopup.id = 'myPopup';
   popupButon.innerHTML = 'X';
@@ -28,6 +36,7 @@ const createPopup = (details, msgDat) => {
   myPopup.appendChild(popupButon);
   myPopup.appendChild(itemdata);
   myPopup.appendChild(messageContainer);
+  myPopup.appendChild(newMessCont);
   mainCont.appendChild(myPopup);
 };
 
