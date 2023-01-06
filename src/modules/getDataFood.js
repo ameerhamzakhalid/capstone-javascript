@@ -47,9 +47,9 @@ const displayData = (arr) => {
       getItemData(food.idMeal);
       hidenItems();
     });
-    btnLikedElement.addEventListener('click', () => {
-      addLikeToItem(food.idMeal);
-      getLikesToItems()
+    btnLikedElement.addEventListener('click', async () => {
+     await addLikeToItem(food.idMeal);
+      await getLikesToItems()
         .then(printLike)
         .catch((e) => console.log(e));
     });
