@@ -24,6 +24,7 @@
 
 # 📖 [Capstone Project JavaScript] <a name="about-project"></a>
 
+
 **[Capstone Project JavaScript]** is a simple web app that shows recent scores and allows the user to add scores
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -74,15 +75,18 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
+
 ```sh
   cd my-project
   npm install
   npm run build
 ```
 
+
 ### Usage
 
 To run the project, execute the following command:
+
 
 ```sh
   npm run server
@@ -128,11 +132,9 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Asif Amin**
+👤 **Asim**
 
 - GitHub: [@asifaminisonline](https://github.com/asifaminisonline)
-- Twitter: [@twitterhandle](https://twitter.com/AminAmi53306702)
-- LinkedIn: [Asif Amin](https://www.linkedin.com/in/asif-amin-723680251/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
