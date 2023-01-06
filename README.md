@@ -40,13 +40,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Uses [Capstone Project JavaScript API](https://www.themealdb.com/api)**
+- **Uses [Capstone Project JavaScript API](https://www.notion.so/microverse/Involvement-API-869e60b5ad104603aa6db59e08150270)**
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ameerhamzakhalid.github.io/capstone-javascript/) -->
+- [Live Demo will be available soon]-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +89,7 @@ To run the project, execute the following command:
 
 
 ```sh
-  npm run server
+  npm start
 ```
 
 <!---
