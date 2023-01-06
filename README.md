@@ -91,7 +91,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository by using the command line :
+Clone this repository by using the command-line :
 `git clone https://github.com/asifaminisonline/capstone-javascript.git`
 
 ### Install
