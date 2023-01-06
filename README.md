@@ -131,6 +131,8 @@ Example:
 👤 **Asif Amin**
 
 - GitHub: [@asifaminisonline](https://github.com/asifaminisonline)
+- Twitter: [@twitterhandle](https://twitter.com/AminAmi53306702)
+- LinkedIn: [Ameer Hamza](https://www.linkedin.com/in/asif-amin-723680251/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
